@@ -6,6 +6,8 @@ import lombok.Builder;
 
 @Builder
 @AllArgsConstructor
-public class VehicleVO extends Base {
+public class VehicleVO{
+	private Double amount;
+	private String destiny;
 	private Vehicles type;
 }
