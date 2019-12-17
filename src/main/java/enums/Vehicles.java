@@ -1,6 +1,6 @@
 package enums;
 
-public enum Truck {
+public enum Vehicles {
 	GENERAL,
 	ELECTRONIC,
 	FOODS,
