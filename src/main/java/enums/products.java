@@ -1,7 +1,13 @@
 package enums;
 
 public enum Products {
-	FOODS,
-	REFRIGERATES,
-	ELECTRONIC
+	FOODS("Alimento"),
+	REFRIGERATES("Refrigerado"),
+	ELECTRONIC("Eletronico");
+	
+	private String description;
+
+	private Products(String description) {
+		this.description = description;
+	}
 }
