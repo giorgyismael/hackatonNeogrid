@@ -1,5 +1,6 @@
 package vo;
 
+import enums.Vehicles;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
@@ -8,7 +9,8 @@ import lombok.Builder;
 public class VehicleVO{
 	private Double amount;
 	private String destiny;
-	private String type;
+	private Vehicles type;
+	
 	@Override
 	public String toString() {
 		return "VehicleVO [amount=" + amount + ", destiny=" + destiny + ", type=" + type + "]";
