@@ -9,7 +9,7 @@ import lombok.Builder;
 public class ProductVO{
 	private Double amount;
 	private String destiny;
-	private Product type;
+	private String type;
 	@Override
 	public String toString() {
 		return "ProductVO [amount=" + amount + ", destiny=" + destiny + ", type=" + type + "]";

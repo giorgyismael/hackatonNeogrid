@@ -9,5 +9,11 @@ import lombok.Builder;
 public class VehicleVO{
 	private Double amount;
 	private String destiny;
-	private Vehicles type;
+	private String type;
+	@Override
+	public String toString() {
+		return "VehicleVO [amount=" + amount + ", destiny=" + destiny + ", type=" + type + "]";
+	}
+	
+	
 }
