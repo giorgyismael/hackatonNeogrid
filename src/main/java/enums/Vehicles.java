@@ -1,11 +1,11 @@
 package enums;
 
 public enum Vehicles {
-	GENERAL(""),
-	ELECTRONIC(""),
-	FOODS(""),
-	REFRIGERATES(""),
-	TOUR("");
+	GENERAL("Geral"),
+    ELECTRONIC("Eletronicos"),
+    FOODS("Alimentos"),
+    REFRIGERATES("Refrigerados"),
+    TOUR("Passeio");
 	
 	private Vehicles(String description) {
 		this.description = description;
