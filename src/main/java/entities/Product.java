@@ -1,10 +1,15 @@
 package entities;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class Product {
 	
-	private String name;
-	private Double price;
-	private Integer quantity;
+	private String type;
+	private Double weight;
+	private Integer destiny;
 	
 	public Product() {
 		
@@ -12,43 +17,19 @@ public class Product {
 	
 	public Product(String name, Double price, Integer quantity) {
 		
-		this.name = name;
-		this.price = price;
-		this.quantity = quantity;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Double getPrice() {
-		return price;
-	}
-
-	public void setPrice(Double price) {
-		this.price = price;
-	}
-
-	public Integer getQuantity() {
-		return quantity;
-	}
-
-	public void setQuantity(Integer quantity) {
-		this.quantity = quantity;
+		this.type = name;
+		this.weight = price;
+		this.destiny = quantity;
 	}
 	
 	public String toString(){
-		return name 
+		return type 
 				+ ", " 
 				+ String.format("%.2f", totalAmount());
 	}
 	
 	public double totalAmount() {
-		return quantity * price;
+		return destiny * weight;
 	}
 	
 }

@@ -17,7 +17,7 @@ public class Program {
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
-		String path  ="c:\\temp\\produtos.csv";
+		String path  ="C:\\Users\\User-000\\Downloads\\Dados Hackaton 2019\\teste1\\caminhao1.txt";
 		List<Product> list = new ArrayList<>();
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))){
