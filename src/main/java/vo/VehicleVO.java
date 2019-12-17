@@ -1,6 +1,5 @@
 package vo;
 
-import enums.Vehicles;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 

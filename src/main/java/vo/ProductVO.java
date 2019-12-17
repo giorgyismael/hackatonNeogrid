@@ -1,6 +1,5 @@
 package vo;
 
-import enums.Product;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 
