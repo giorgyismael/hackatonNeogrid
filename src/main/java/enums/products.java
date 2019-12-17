@@ -1,5 +1,5 @@
 package enums;
 
-public enum products {
+public enum Products {
 
 }
